@@ -29,6 +29,23 @@ textarea {
   }
 }
 
+.float_left {
+  float: left;
+}
+
+.float_right {
+  float: right;
+}
+
+.wrap {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.half {
+  width: 45%;
+}
+
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {

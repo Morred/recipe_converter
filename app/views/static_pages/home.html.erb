@@ -1,9 +1,20 @@
 
 <div class="center hero-unit">
   <h1>Recipe Converter</h1>
-
   <h2>
-    This is the home page for the RecipeConverter.
+    So you have a recipe that you want to adjust.
   </h2>
+  <div class="wrap">
+  	<div class="float_left half">
+  	<p>Would you like to cook for a different amount of people than specified in your recipe?</p>
+  	<%= link_to "People", '#', class: "btn btn-large btn-primary" %>
+ 	</div>
+ 	<div class="float_right half">
+  	<p>Would you like to adjust your recipe according to the amount of one ingredient?</p>
+  	<%= link_to "Ingredient", '#', class: "btn btn-large btn-primary" %>
+  	</div>
+  </div>
+  <div style="clear:both"></div>
 </div>
+
 
