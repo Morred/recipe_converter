@@ -1,0 +1,18 @@
+<% provide(:title, 'Conversion') %>
+<h1>Conversion</h1>
+<div class="center hero-unit">
+	<%= form_tag("/conversion", :method => "post") do %>
+		<%= label_tag(:original_number, "Original Number of People") %>
+		<%= select_tag(:original_number, options_for_select((1..10).to_a)) %>
+
+		<%= label_tag(:new_number, "New Number of People") %>
+		<%= select_tag(:new_number, options_for_select((1..10).to_a)) %>
+
+		<%= label_tag(:ingredients, "Ingredients")%>
+		<%= text_area_tag(:ingredients) %>
+		</br>
+
+		<%= submit_tag("Convert") %>
+
+	<% end %>
+</div>

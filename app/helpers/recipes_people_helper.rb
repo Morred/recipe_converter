@@ -1,0 +1,2 @@
+module RecipesPeopleHelper
+end

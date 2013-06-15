@@ -1,0 +1,9 @@
+<% provide(:title, 'Conversion') %>
+<h1>Conversion</h1>
+<div class="center hero-unit">
+	<ul>
+		<% @recipe.ingredients.each do |ingredient|%>
+			<li><%= ingredient %></li>
+		<% end %>
+	</ul>
+</div>
